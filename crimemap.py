@@ -25,7 +25,7 @@ def add():
         DB.add_input(data)
     except Exception as e:
         print(e)
-        return home()
+    return home()
 
 
 @app.route("/clear")
